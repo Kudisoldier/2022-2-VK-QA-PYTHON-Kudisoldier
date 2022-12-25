@@ -1,5 +1,45 @@
 # VK SDET homeworks
 
+
+## Final project - testing web app
+Steps to run final project:  
+```
+brew services start jenkins  
+```
+Run docker  
+Go to http://localhost:6969  
+Click "Build Now"
+
+Contents:
+- 8 smoke tests
+- Api tests
+- UI tests
+- DB tests
+
+Features:
+- CI: jenkins, docker
+- Automatic allure reports
+- Supports multithreading
+- Written with PageObject pattern
+- Used selenoid to run browsers
+- Mock server for VKID with FastAPI
+
+How I did the project:
+https://cultured-banana-8e5.notion.site/900754a17b764dc99b63b7cfbdd3974a
+
+Test-plan:
+https://cultured-banana-8e5.notion.site/f8f400eaa1c946f3a7d0eebd78dd8b4c
+
+Test-cases:
+https://cultured-banana-8e5.notion.site/0b9aaa6c347b490fbb5691b1b785fb1a
+
+Bug-tracker:
+https://cultured-banana-8e5.notion.site/dcb0bb9418dc46e0960ddbeaf2eebd89?v=436cb03e77d741a98f2e8f443321b642
+
+Checklist:
+https://cultured-banana-8e5.notion.site/cde49e4919394d12b7442562a1adf641?v=8010da95e35746799c81323afa8e5ccc
+
+
 ## Homework 1 - testing web UI with selenium
 Steps to run homework1:
 ```
