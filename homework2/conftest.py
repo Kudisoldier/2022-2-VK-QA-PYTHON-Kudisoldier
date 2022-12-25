@@ -40,7 +40,8 @@ def driver(config):
             "browserName": "chrome",
             "browserVersion": "91.0",
             "selenoid:options": {
-                "enableVideo": False
+                "enableVideo": False,
+                "enableVNC": config["vnc"]
             }
         }
 
